@@ -37,7 +37,7 @@ export default function Home() {
           )
         }
         <PromptBox isLoading={isLoading} setIsLoading={setIsLoading} />
-        <p className="text-xs absolute bottom-1 text-gray-500">AI-generated, for reference only</p>
+        <p className="text-xs absolute bottom-1 text-gray-500">AI-generated, for reference only | isearch developed by NurillahiR.</p>
 
         </div>
       </div>
