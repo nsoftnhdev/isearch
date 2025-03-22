@@ -95,7 +95,7 @@ const Sidebar = ({ expand, setExpand }) => {
           }`}
         >
           <Image
-            className={expand ? "w-5" : "w-6.5 max-auto"}
+            className={expand ? "w-5" : "w-6.5 mx-auto"}
             src={expand ? assets.phone_icon : assets.phone_icon_dull}
             alt=""
           />
